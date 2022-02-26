@@ -10,3 +10,11 @@
 2022-02-26 23:06:13 ALOHA Program Start
 2022-02-26 23:06:15 ALOHA Precipitable-water Model Analysis Tool
 2022-02-26 23:06:15 ALOHA Program Start
+2022-02-26 23:28:29 ALOHA Precipitable-water Model Analysis Tool
+2022-02-26 23:28:29 ALOHA Program Start
+2022-02-26 23:28:31 INFO Collecting Data from sources
+2022-02-26 23:28:31 DEBUG Collecting data for 2021-05-28		 Progress: 0.00%
+2022-02-26 23:28:33 ALOHA Precipitable-water Model Analysis Tool
+2022-02-26 23:28:33 ALOHA Program Start
+2022-02-26 23:28:34 INFO Collecting Data from sources
+2022-02-26 23:28:34 DEBUG Collecting data for 2021-05-28		 Progress: 0.00%
