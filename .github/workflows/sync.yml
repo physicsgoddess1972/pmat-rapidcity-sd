@@ -1,0 +1,23 @@
+name: Sync Results
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Master Branch
+      uses: actions/checkout@master
+      with:
+        ref: main
+    - name: Append Site field
+      run: |
+       echo 'site: "rapidcity-sd"' >> out/_results.yml
+    - name: Run GitHub File Sync
+      uses: kbrashears5/github-action-file-sync@master
+      with:
+        REPOSITORIES: |
+          physicsgoddess1972/Precipitable-Water-Model@docs
+        FILES: |
+          out/_results.yml=docs/_data/results/rapidcity-sd.yml
+        TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
