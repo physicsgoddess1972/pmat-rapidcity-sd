@@ -16,6 +16,8 @@
       seed:
 - logging:
   - verbose: DEBUG
+- style: 
+  - pw_label: PWAT
 - import:
     - mesowest:
       - id: KRAP
