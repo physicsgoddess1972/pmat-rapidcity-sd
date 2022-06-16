@@ -1,0 +1,18 @@
+data:
+  clear:
+    total.count: 19
+  overcast:
+    total.count: 12
+  train.count: 7
+  fraction.kept: 0.5294
+  nans: 2
+analysis:
+  coeff:
+    A: 20.1186
+    B: 0.0027
+  stdev: .inf
+  rmse:
+    mims: 18.7384
+    kelsey: 8.1958
+    yours: 6.084
+
